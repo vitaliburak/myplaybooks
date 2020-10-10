@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+  - name: Install ssh key
+    authorized_key:
+      user: ec2-user
+      state: present
+      key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDIU3v/iGtmLcyq8HZ1IOPas8Nhageu89YqkeTufvrrce8rZCzyVlsTHcv/fy3der+RkC+l/KaJALwrkpqJZPdQtLSSZXHTBYA+lLw28C0ved3D8ZCt+aNL3qFv2ODn65gxAC+3GDPgHkWDFouH4PPQO84CKyKcQDChrCCpxYsX1QhMNHSjb74QB2vVGzGulh+J2N06By6aU2DuawytHaK1MCPKp/sJuB38sO3UT5AZu5Giuo8YCz09G8ofLPWsoIklM9p/Whjo5Yr1y4+65LM5OOobSyYFB9cBSmCmQbY6p1ZAZ67cL+tNAJE0j5hClzFmQopW3m0EA09pP4/Rbb7zRnCmRYF51avUWjOSVO3hE/lqkjXGmrjk1EQyoHRRoEn1OipxsuiLwUfaKJmgIabVcCt2WAZxLe/QhyboNgkKFsS58IVmgjHm2qkJRszN7LFakS7B/L24MG+FcK7HvS235pKijSmg9wzIG7uSWBYvd9hi6RlfZmawkv/nefo8FPc= vitalii@Vitaliis-MBP"
